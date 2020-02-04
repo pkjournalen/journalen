@@ -1,0 +1,241 @@
+@media only screen and (max-width:650px) {
+    #content-desktop {display: none;}
+    #content-mobile {display: block;}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        background-color: #EFE2BA;
+        color: #000;
+        font-family: 'Lato', 'Arial', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        margin-right: 5%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .head {
+        text-align: center;
+        display: inline-block;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    h1 {
+        font-weight: 500;
+        font-size: 1.85em;
+    }
+    
+    h2 {
+        font-size: 0.8em;
+        font-weight: 300;
+        letter-spacing: 0.05em;
+    }
+    h3 {
+        font-weight: 200;
+        letter-spacing: 0.1em;
+        font-size: 0.8em
+    }
+    
+    p {
+        letter-spacing: 0.02em;
+        font-size: 0.65em;
+    }
+    .footer {
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+    .footer p {
+        padding: 5px;
+    }
+
+    /* Responsive iFrame */
+
+    .calender {
+    position: relative;
+    padding-bottom: 100.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+
+    .calender iframe,
+    .calender object,
+    .calender embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    .w3-bar {
+        margin-top: 3%;
+    }
+
+    .arrow p {
+        margin-bottom: 2%
+    }
+    
+    a {
+        color: #000 !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #eace78;
+        padding: 10px;
+        border-radius: 15px;
+        display: inline-block;
+        border: none;
+        transition: all 0.4s ease 0s;
+        margin-right: 2px;
+        margin-left: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-size: 0.6em;
+    }
+    
+    a:hover {
+        background: #e5c35b
+    }
+    .bottom {
+        padding-top: 1%;
+    }
+    .info {
+        margin-top: 5;
+        margin-bottom: 5;
+    }
+    .email {
+        margin-top: 2%;
+    }
+    .email p {
+        font-size: 1em;
+    }
+}
+@media only screen and (min-width:650px) {
+    #content-desktop {display: block;}
+    #content-mobile {display: none;}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        background-color: #EFE2BA;
+        color: #000;
+        font-family: 'Lato', 'Arial', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        margin-right: 5%;
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .head {
+        text-align: center;
+        display: inline-block;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    h1 {
+        font-weight: 500;
+        font-size: 2.8em;
+    }
+    
+    h2 {
+        font-weight: 300;
+        letter-spacing: 0.1em;
+    }
+    h3 {
+        font-weight: 200;
+        letter-spacing: 0.1em;
+    }
+    
+    p {
+        letter-spacing: 0.02em;
+        font-size: 1em;
+    }
+    .footer {
+        margin-top: 3%;
+        margin-bottom: 1%;
+    }
+    .footer p {
+        padding: 5px;
+    }
+
+    /* Responsive iFrame */
+
+    .calender {
+    position: relative;
+    padding-bottom: 45.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+
+    .calender iframe,
+    .calender object,
+    .calender embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+    .w3-bar {
+        margin-top: 1%;
+    }
+
+    .arrow p {
+        margin-bottom: 3%
+    }
+    
+    a {
+        color: #000 !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #eace78;
+        padding: 10px;
+        border-radius: 15px;
+        display: inline-block;
+        border: none;
+        transition: all 0.4s ease 0s;
+        margin-right: 2px;
+        margin-left: 2px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        font-size: 0.6em;
+    }
+    
+    a:hover {
+        background: #e5c35b
+    }
+        .bottom {
+        padding-top: 2%;
+    }
+    .info p {
+        width: 40%;
+        color: #000 !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: inline-block;
+        border: none;
+        margin-right: 2%;
+        margin-left: 2%;
+        font-size: 0.6em;
+    }
+    .info {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        
+    }
+    .email {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
